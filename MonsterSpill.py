@@ -3,3 +3,5 @@ import helt as h
 import monster as m
 
 print(h.Sverd.skade)
+
+while ()

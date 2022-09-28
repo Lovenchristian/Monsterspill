@@ -4,6 +4,6 @@ class Spiller(Vopen):
         super.__init__
         self.hp=hp
 
-spiller=Spiller(100)
+_spiller=Spiller(100)
 
 print(spiller.hp)
