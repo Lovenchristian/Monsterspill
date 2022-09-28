@@ -22,4 +22,4 @@ class Spiller:
     def angrip ():
         pass
 
-print(Spiller.hp)
+    
