@@ -4,4 +4,4 @@ import monster as m
 
 print(h.Sverd.skade)
 
-while ()
+while (h._spiller.hp <= 0 or m.)

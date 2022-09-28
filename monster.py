@@ -9,6 +9,6 @@ class monster:
         self.dmg = dmg
         self.hit_chance = hit_chance
 
-m1 = monster(1, 1, 0.1)
+_monster = monster(1, 1, 0.1)
 
 print(m1.name)
