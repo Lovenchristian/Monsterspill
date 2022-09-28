@@ -26,3 +26,4 @@ class Spiller:
     def angrip ():
         pass
 
+_spiller = Spiller(0, 0, 100)
