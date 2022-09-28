@@ -11,7 +11,15 @@ spiller=Spiller(100)
 print(spiller.hp)
 """
 class Spiller:
-    def __init__(self, hp):
+    def __init__(self, skade, hit_chance, hp=100):
         self.hp=hp
+        self.skade=skade
+        self.hit_chance=hit_chance
 
-spiller=Spiller(100)
+    def vleg_vopen ():
+        pass
+
+    def angrip ():
+        pass
+
+print(Spiller.hp)
