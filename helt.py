@@ -18,3 +18,4 @@ class Spiller:
             motstander.hp -= self.skade
 
 _spiller = Spiller(0, 0, 100)
+
