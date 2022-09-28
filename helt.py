@@ -16,8 +16,9 @@ class Spiller:
         self.skade=skade
         self.hit_chance=hit_chance
 
-    def vleg_vopen ():
-        pass
+    def vleg_vopen (liste):
+        for i in range(0, liste):
+            print(f"Våpen: {liste[i].navn} har {liste[i].skade} skade og {liste[i].hit_chance} treff sansynelighet")
 
     def angrip ():
         pass
