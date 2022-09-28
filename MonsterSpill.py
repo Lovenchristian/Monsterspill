@@ -12,5 +12,5 @@ def print_hp():
 while (h._spiller.hp > 0 and m._monster.hp > 0):
     h._spiller.vleg_vopen(v.alle_vopen)
     h._spiller.angrip(m._monster)
-    m._monster.(h._spiller)
+    m._monster.angrip(h._spiller)
     print_hp()
