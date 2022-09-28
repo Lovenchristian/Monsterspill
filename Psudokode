@@ -1,4 +1,4 @@
-Class våpen:
+Class Vopen:
   * skade
   * hit_chance
 
@@ -6,7 +6,24 @@ Class Spiller:
   * hp
   * skade
   * hit_chance
+  
+  vleg_vopen ()
+  angrip ()
+  
 
 Class Monster:
   * hp
   * skade
+  
+  angrip ()
+ 
+print_resultat()
+
+ løkke
+   * spiller.velg_vopen()
+   * spiller.angrip
+   * monster.angrip
+   * print_resultat()
+   * if (spiller.hp <= 0 or monster.hp <=0):
+        print("spillet er ferdig")
+        break
