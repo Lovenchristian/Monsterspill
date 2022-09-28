@@ -10,5 +10,3 @@ class monster:
         self.hit_chance = hit_chance
 
 m1 = monster(1, 1, 0.1)
-
-print(m1.name)
