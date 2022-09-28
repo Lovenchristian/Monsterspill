@@ -1,5 +1,5 @@
-import helt
-import Vopen
-import Monster
+import helt as h
+import Vopen as v
+#import Monster
 
-print(Sverd.skade)
+print(h.Sverd.skade)
