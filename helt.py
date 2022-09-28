@@ -23,3 +23,8 @@ class Spiller:
     def angrip ():
         pass
 
+def spillerAngrep(self, monster, wep):
+    self.dmg = wep.dmg
+    self.hit_chance = wep.hit_chance
+    if (randrange(11) < self.hit_chance):
+        monster.hp -= self.dmg
