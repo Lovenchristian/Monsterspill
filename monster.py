@@ -11,5 +11,6 @@ class monster:
     def angrip(self, motstander):
         if (randrange(100) <= self.hit_chance):
             motstander.hp -= self.skade
+            print("Mosteret traff for", self.skade)
 
 _monster = monster(100, 10, 75)
