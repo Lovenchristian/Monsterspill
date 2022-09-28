@@ -16,6 +16,7 @@ class Spiller:
     def angrip(self, motstander):
         if (randrange(100) <= self.hit_chance):
             motstander.hp -= self.skade
+            print("Helten traff for", self.skade)
 
 _spiller = Spiller(0, 0, 100)
 
