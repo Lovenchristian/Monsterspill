@@ -2,8 +2,11 @@ import Vopen as v
 import helt as h
 import monster as m
 
-print(h._spiller.hp)
-print(m._monster.hp)
+print("")
+print('Du går inn i en dyp mørk hule. Hulen er fylt med alle mulige skatter og våpen, men innerst i hulen står et monster, et monster som gjør hva som helt for å vokte sin dyrebare skatt.')
+print("")
+print('Velg et av våpnene dine å angripe monsteret med:')
+print("")
 
 def print_hp():
     print("Spiller hp: ", h._spiller.hp)
