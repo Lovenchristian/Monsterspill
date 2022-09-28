@@ -2,10 +2,15 @@ import Vopen as v
 import helt as h
 import monster as m
 
-print(h.Sverd.skade)
+print(h._spiller.hp)
+print(m._monster.hp)
 
-while (h._spiller.hp <= 0 or m._monster.hp <= 0):
-    #velg våpen
-    h._spiller.velgVopen(h._spiller, v.alle_vopen)
+def print_hp():
+    print("Spiller hp: ", h._spiller.hp)
+    print("Monster hp: ", m._monster.hp)
+
+while (h._spiller.hp > 0 and m._monster.hp > 0):
+    h._spiller.vleg_vopen(v.alle_vopen)
     h._spiller.angrip(m._monster)
-    m._monster.angrip(h._spiller)
+    m._monster.(h._spiller)
+    print_hp()
