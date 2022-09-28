@@ -19,6 +19,11 @@ Class Monster:
  
 print_resultat()
 
+
+_spiller = Spiller(100)
+_monster = Monster(100,10)
+
+
  løkke
    * spiller.velg_vopen()
    * spiller.angrip
