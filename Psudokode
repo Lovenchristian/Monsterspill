@@ -1,0 +1,12 @@
+Class våpen:
+  * skade
+  * hit_chance
+
+Class Spiller:
+  * hp
+  * skade
+  * hit_chance
+
+Class Monster:
+  * hp
+  * skade
