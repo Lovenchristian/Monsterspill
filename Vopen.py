@@ -8,5 +8,5 @@ class Vopen:
 Sverd=Vopen(10,70)
 Bue=Vopen(20,40)
 Magi=Vopen(35,30)
-print(Sverd.skade)
+
 
