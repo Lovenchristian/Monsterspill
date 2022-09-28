@@ -1,7 +1,8 @@
-class Spiller(Vopen):
+import Vopen as t
 
-    def __init__(self,hp):
-        super.__init__
+class Spiller(t.Vopen):
+    def __init__(self, skade, hit_chance,hp):
+        super().__init_(skade,hit_chance)
         self.hp=hp
 
 spiller=Spiller(100)
