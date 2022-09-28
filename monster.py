@@ -3,15 +3,13 @@ from random import randrange
 names = ["a", "b", "c", "d"]
 
 class monster:
-    def __init__(self, hp, dmg, hit_chance, name = names[randrange(5)]):
+    def __init__(self, hp, skade, hit_chance, name = names[randrange(4)]):
         self.name = name
         self.hp = hp
-        self.dmg = dmg
+        self.skade = skade
         self.hit_chance = hit_chance
+    def angrip(self, motstander):
+        if (randrange(100) <= self.hit_chance):
+            motstander.hp -= self.skade
 
-_monster = monster(1, 1, 0.1)
-
-def monsterAngrep(self, helt):
-    if (randrange(11) < self.hit_chance):
-        helt.hp -= self.dmg
-
+_monster = monster(100, 10, 75)
