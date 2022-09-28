@@ -5,6 +5,6 @@ class Vopen:
         self.skade=skade
         self.hit_chance=hit_chance
 
-alle_vopen = [Vopen(10,70),Vopen(20,40),Vopen(35,30)]
+alle_vopen = [Vopen('Sverd',10,70),Vopen('Bue',20,40),Vopen('Magi',35,30)]
 
 
