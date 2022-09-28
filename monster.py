@@ -9,6 +9,8 @@ class monster:
         self.dmg = dmg
         self.hit_chance = hit_chance
 
-m1 = monster(1, 1, 0.1)
+m1 = monster(1, 1, 5)
 
-print(m1.name)
+def monsterAngrep(self, helt):
+    if (randrange(11) < self.hit_chance):
+        helt.hp +- self.dmg  
