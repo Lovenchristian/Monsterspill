@@ -8,10 +8,4 @@ class Spiller:
         pass
 
     def angrip ():
-<<<<<<< HEAD
         pass
-
-    
-=======
-        pass
->>>>>>> d2c84464c1a65bafbf60613eff36fb8b949f6ae6
