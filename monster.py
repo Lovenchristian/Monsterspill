@@ -9,6 +9,8 @@ class monster:
         self.dmg = dmg
         self.hit_chance = hit_chance
 
+_monster = monster(1, 1, 0.1)
+
 def monsterAngrep(self, helt):
     if (randrange(11) < self.hit_chance):
         helt.hp -= self.dmg
