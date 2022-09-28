@@ -1,3 +1,4 @@
+"""
 import Vopen as t
 
 class Spiller(t.Vopen):
@@ -8,3 +9,9 @@ class Spiller(t.Vopen):
 spiller=Spiller(100)
 
 print(spiller.hp)
+"""
+class Spiller:
+    def __init__(self, hp):
+        self.hp=hp
+
+spiller=Spiller(100)
