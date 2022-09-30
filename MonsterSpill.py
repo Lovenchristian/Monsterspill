@@ -24,10 +24,10 @@ while (h._spiller.hp > 0 and m._monster.hp > 0):
     m._monster.angrip(h._spiller)
     print_hp()
     print("")
-
-if h._spiller.hp <=0:
+if (h._spiller.hp and m._monster.hp == 0):
+    print("Det ble uavgjort, men begge døde")
+elif h._spiller.hp <=0:
     print("Du tapte kampen. Monsteret vant")
 elif m._monster.hp <=0:
     print("Gratuler du vant!")
-elif (h._spiller.hp and m._monster.hp == 0):
-    print("Det ble uavgjort, men begge døde")
+
