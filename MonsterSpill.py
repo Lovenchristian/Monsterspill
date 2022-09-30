@@ -20,5 +20,5 @@ while (h._spiller.hp > 0 and m._monster.hp > 0):
 
 if h._spiller.hp <=0:
     print("Du tapte kampen. Monsteret vant")
-elif m._monster <=0:
+elif m._monster.hp <=0:
     print("Gratuler du vant!")
