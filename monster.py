@@ -12,5 +12,7 @@ class monster:
         if (randrange(100) <= self.hit_chance):
             motstander.hp -= self.skade
             print("Mosteret traff for", self.skade)
+        else:
+            print(self.name, "bommet")
 
 _monster = monster(100, 10, 75)
