@@ -17,3 +17,4 @@ while (h._spiller.hp > 0 and m._monster.hp > 0):
     h._spiller.angrip(m._monster)
     m._monster.angrip(h._spiller)
     print_hp()
+    print("")
