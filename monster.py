@@ -1,6 +1,6 @@
 from random import randrange
 
-names = ["Goblin", "Rat", "Ork", "Dragon"]
+names = ["Troll", "Rotte", "Drage"]
 
 class monster:
     def __init__(self, hp, skade, hit_chance, name = names[randrange(len(names))]):
