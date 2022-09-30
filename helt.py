@@ -1,7 +1,8 @@
 from random import randrange
 
 class Spiller:
-    def __init__(self, skade, hit_chance, hp=100):
+    def __init__(self, skade, hit_chance, hp=100, name="spiller"):
+        self.name = name
         self.hp=hp
         self.skade=skade
         self.hit_chance=hit_chance
@@ -17,6 +18,8 @@ class Spiller:
         if (randrange(100) <= self.hit_chance):
             motstander.hp -= self.skade
             print("Helten traff for", self.skade)
+        else:
+            print(self.name, "bommet")
 
 _spiller = Spiller(0, 0, 100)
 
