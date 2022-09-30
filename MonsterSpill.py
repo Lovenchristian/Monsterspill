@@ -1,10 +1,11 @@
+from termcolor import colored
 import Vopen as v
 import helt as h
 import monster as m
 
+print (colored('hei, red'))
 print("")
 print('Du går inn i en dyp mørk hule. Hulen er fylt med alle mulige skatter og våpen, men innerst i hulen står et monster, et monster som gjør hva som helt for å vokte sin dyrebare skatt.')
-print("Du møtte på en/et", m._monster.name)
 print("")
 print('Velg et av våpnene dine å angripe monsteret med:')
 print("")
@@ -25,10 +26,10 @@ while (h._spiller.hp > 0 and m._monster.hp > 0):
     m._monster.angrip(h._spiller)
     print_hp()
     print("")
-if (h._spiller.hp and m._monster.hp == 0):
-    print("Det ble uavgjort, men begge døde")
-elif h._spiller.hp <=0:
+
+if h._spiller.hp <=0:
     print("Du tapte kampen. Monsteret vant")
 elif m._monster.hp <=0:
     print("Gratuler du vant!")
-
+elif (h._spiller.hp and m._monster.hp == 0):
+    print("Det ble uavgjort, men begge døde")
