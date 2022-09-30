@@ -9,8 +9,14 @@ print('Velg et av våpnene dine å angripe monsteret med:')
 print("")
 
 def print_hp():
-    print("Spiller hp: ", h._spiller.hp)
-    print("Monster hp: ", m._monster.hp)
+    hp_bar = ""
+    for i in range(1,h._spiller.hp):
+        hp_bar += "I"
+    print("Spiller hp: ", h._spiller.hp, "", hp_bar)
+    hp_bar = ""
+    for i in range(1,m._monster.hp):
+        hp_bar += "I"
+    print("Monster hp: ", m._monster.hp, "", hp_bar)
 
 while (h._spiller.hp > 0 and m._monster.hp > 0):
     h._spiller.vleg_vopen(v.alle_vopen)

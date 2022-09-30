@@ -1,9 +1,9 @@
 from random import randrange
 
-names = ["a", "b", "c", "d"]
+names = ["Goblin", "Rat", "Ork", "Dragon"]
 
 class monster:
-    def __init__(self, hp, skade, hit_chance, name = names[randrange(4)]):
+    def __init__(self, hp, skade, hit_chance, name = names[randrange(len(names))]):
         self.name = name
         self.hp = hp
         self.skade = skade
@@ -11,7 +11,7 @@ class monster:
     def angrip(self, motstander):
         if (randrange(100) <= self.hit_chance):
             motstander.hp -= self.skade
-            print("Mosteret traff for", self.skade)
+            print(self.name, "traff for", self.skade)
         else:
             print(self.name, "bommet")
 

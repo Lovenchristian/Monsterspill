@@ -1,7 +1,7 @@
 from random import randrange
 
 class Spiller:
-    def __init__(self, skade, hit_chance, hp=100, name="spiller"):
+    def __init__(self, skade, hit_chance, hp=100, name="Helt"):
         self.name = name
         self.hp=hp
         self.skade=skade
