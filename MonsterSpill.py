@@ -29,3 +29,5 @@ if h._spiller.hp <=0:
     print("Du tapte kampen. Monsteret vant")
 elif m._monster.hp <=0:
     print("Gratuler du vant!")
+elif (h._spiller.hp and m._monster.hp):
+    print("Det ble uavgjort, men begge døde")
